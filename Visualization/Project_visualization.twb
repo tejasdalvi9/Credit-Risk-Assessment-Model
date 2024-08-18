@@ -1355,8 +1355,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97938' id='20' param='vert' type-v2='layout-flow' w='98848' x='576' y='1031'>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97938' id='24' param='vert' type-v2='layout-flow' w='98848' x='576' y='1031'>
                 <zone h='13918' id='8' mode='dropdown' name='Distribution of Borrower Age' param='[federated.1ssn3ib1raap8w19ff6rp09nke89].[none:DebtRatioCategory:nk]' type-v2='filter' w='13965' x='84705' y='8892'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1698,7 +1698,7 @@
       </viewpoint>
       <simple-id uuid='{EAD249DD-0E35-4D3A-92FD-4F24C13BF3DF}' />
     </window>
-    <window class='worksheet' maximized='true' name='Percentage of Delinquency'>
+    <window class='worksheet' name='Percentage of Delinquency'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1832,7 +1832,7 @@
       </viewpoint>
       <simple-id uuid='{C81121BB-1809-46B8-91BD-F9CEFD189236}' />
     </window>
-    <window class='dashboard' name='Dashboard 1'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Delinquency By Borrower Age'>
           <zoom type='entire-view' />
@@ -1841,7 +1841,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='8' />
       <simple-id uuid='{C19926ED-6F2A-43CD-88EB-6501F261EC26}' />
     </window>
   </windows>
